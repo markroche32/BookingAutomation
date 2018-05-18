@@ -99,7 +99,7 @@ namespace UnitTestProject1
             new BookingPage(driver).AdultsDropdown.PickDropdownByText(driver, "2 adults");
             new BookingPage(driver).RoomsDropdown.PickDropdownByText(driver, "1 room");
             new BookingPage(driver).Search.Click(driver);
-            new BookingPage(driver).SaunaFiter.Click(driver);
+            new BookingPage(driver).Star5Fiter.Click(driver);
 
             //Actually TC will throw NoSuchElementException if hotel is not in Search Results.
             Assert.IsNotNull(new BookingPage(driver).ReturnSearchResultByHotel("The Savoy Hotel"));
@@ -117,7 +117,7 @@ namespace UnitTestProject1
             new BookingPage(driver).AdultsDropdown.PickDropdownByText(driver, "2 adults");
             new BookingPage(driver).RoomsDropdown.PickDropdownByText(driver, "1 room");
             new BookingPage(driver).Search.Click(driver);
-            new BookingPage(driver).SaunaFiter.Click(driver);
+            new BookingPage(driver).Star5Fiter.Click(driver);
 
             //TC will throw NoSuchElementException as hotel is not in Search Results.
             try
