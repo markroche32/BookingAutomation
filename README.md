@@ -1,3 +1,11 @@
+# Runnning Application
+Install Following Libraries via Nu Get Package Manager VS :
+
+- OpenQA.Selenium.Support
+- Selenium Core
+- Selenium Chrome Driver
+
+
 # BookingAutomation
 Booking.com Automation Tests 
 
